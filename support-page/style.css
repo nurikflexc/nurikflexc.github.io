@@ -1,0 +1,45 @@
+/* Rest of the existing styles */
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  color: #fff;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  color: #fff;
+  background-color: rgb(123, 50, 200);
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+button[type="submit"]:hover {
+  background-color: rgb(123, 50, 250);
+}
