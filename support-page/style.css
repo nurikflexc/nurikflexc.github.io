@@ -61,3 +61,7 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: rgb(123, 50, 250);
 }
+
+.nav-logo img {
+  width: 50px;
+}
